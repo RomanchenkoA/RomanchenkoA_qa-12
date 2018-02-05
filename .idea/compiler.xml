@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/Sandbox_1/src/test/java/FirstTest.java" />
+      <file url="file://$PROJECT_DIR$/../etarnovskayaqa12/sandbox1/src/test/java/FirstTest.java" />
+    </excludeFromCompile>
+    <bytecodeTargetLevel>
+      <module name="addressbook-test_main" target="1.8" />
+      <module name="addressbook-test_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
