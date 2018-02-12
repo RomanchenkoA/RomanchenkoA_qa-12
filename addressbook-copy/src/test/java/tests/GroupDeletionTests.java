@@ -30,6 +30,11 @@ public class GroupDeletionTests extends TestBase {
     }
   }
 
+  @Override
+  public String toString() {
+    return "GroupDeletionTests";
+  }
+
   public void selectGroup() {
 
     app.groups().click(By.name("selected[]"));

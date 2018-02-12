@@ -1,6 +1,8 @@
 package tests;
 
 import model.GroupData;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
@@ -12,6 +14,7 @@ import java.util.List;
 import java.util.Objects;
 
 public class GroupCreationTest extends TestBase {
+  Logger logger = LoggerFactory.getLogger(GroupCreationTest.class);
 
   @DataProvider
   public Iterator<Object[]> validGroups() throws IOException{

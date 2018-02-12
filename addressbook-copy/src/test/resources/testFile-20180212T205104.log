@@ -1,0 +1,2 @@
+20:51:12.412 [main] INFO  tests.TestBase - Start test groupDeletionTest with parameter [Ljava.lang.Object;@2d96543c
+20:51:16.347 [main] INFO  tests.TestBase - Stop testgroupDeletionTest
