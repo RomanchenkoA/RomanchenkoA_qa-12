@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+<test name="Regression1">
+    <groups>
+        <run>
+            <exclude name="broken"  />
+            <include name="positive"  />
+        </run>
+    </groups>
+    <classes>
+        <class name="TaggedMethodsTest">
+            <methods>
+                <include name="test1" />
+                <include name="test2" />
+            </methods>
+        </class>
+    </classes>
+
+</test>
+
+</suite>
